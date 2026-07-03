@@ -1,0 +1,273 @@
+{
+  "loading": {
+    "messages": [
+      "Preparing a cozy spot...",
+      "Checking bowls and beds...",
+      "Welcoming furry guests...",
+      "Almost ready!"
+    ]
+  },
+  "nav": [
+    { "id": "trust",    "label": "About"    },
+    { "id": "gallery",  "label": "Photos"   },
+    { "id": "guests",   "label": "Guests"   },
+    { "id": "stories",  "label": "Stories"  },
+    { "id": "reviews",  "label": "Reviews"  },
+    { "id": "timeline", "label": "Day"      },
+    { "id": "faq",      "label": "FAQ"      },
+    { "id": "cta",      "label": "Contact"  }
+  ],
+  "hero": {
+    "badge": "🏠 Home Pet Sitting",
+    "title": "Your pet feels at home",
+    "subtitle": "Individual care, living together, daily reports",
+    "pills": ["🐾 Strictly one owner at a time", "📸 Photos & videos daily", "🏠 Home environment", "❤️ With love"],
+    "cta": "Learn more"
+  },
+  "individual": {
+    "icon": "🏠",
+    "title": "Strictly Individual Pet Sitting",
+    "desc": "We only accept pets from one owner at a time. Your pet will be the sole guest — no other animals around, no stress."
+  },
+  "trust": {
+    "title": "Why they trust us",
+    "subtitle": "Every animal is the only guest",
+    "cards": [
+      {
+        "icon": "🏠",
+        "title": "Only your pet",
+        "text": "Strictly individual sitting — we only take animals from one owner. No other pets around at the same time."
+      },
+      {
+        "icon": "📸",
+        "title": "Daily reports",
+        "text": "Photos and videos every day. You always know what your pet is doing and how they feel."
+      },
+      {
+        "icon": "❤️",
+        "title": "Home environment",
+        "text": "Living together in a home, walks, and play. Your pet won't be lonely or bored."
+      },
+      {
+        "icon": "🌙",
+        "title": "Around-the-clock care",
+        "text": "We're there day and night. The pet is never left alone — always supervised."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Familiar routine",
+        "text": "Feeding on your schedule with their favourite food and toys. Minimum stress, maximum comfort."
+      },
+      {
+        "icon": "🚨",
+        "title": "24/7 contact",
+        "text": "Always reachable. Message any time — we reply quickly with photos or videos of your pet."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Our furry guests",
+    "subtitle": "Moments of happiness and comfort",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=600&fit=crop&q=80", "caption": "Murzik resting on the sofa" },
+      { "src": "https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?w=600&h=600&fit=crop&q=80", "caption": "Bobby on a walk" },
+      { "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=600&fit=crop&q=80", "caption": "Ryzhik playing" },
+      { "src": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=600&fit=crop&q=80", "caption": "Pushok sleeping" },
+      { "src": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600&h=600&fit=crop&q=80", "caption": "Barsik on a walk" },
+      { "src": "https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=600&fit=crop&q=80", "caption": "Snezhok after lunch" }
+    ]
+  },
+  "videos": {
+    "title": "Videos with pets",
+    "subtitle": "Live moments from our home",
+    "items": [
+      {
+        "thumb": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=600&h=400&fit=crop&q=80",
+        "title": "Morning play",
+        "desc": "Ryzhik and his favourite ball",
+        "duration": "0:32",
+        "src": ""
+      },
+      {
+        "thumb": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop&q=80",
+        "title": "Park walk",
+        "desc": "Bobby exploring new scents",
+        "duration": "1:05",
+        "src": ""
+      },
+      {
+        "thumb": "https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?w=600&h=400&fit=crop&q=80",
+        "title": "Evening rest",
+        "desc": "Murzik settled in his favourite spot",
+        "duration": "0:48",
+        "src": ""
+      }
+    ]
+  },
+  "guests": {
+    "title": "Our regular guests",
+    "subtitle": "They come back again and again",
+    "list": [
+      { "emoji": "🐱", "name": "Murzik", "breed": "British Shorthair",    "visits": "8 visits"  },
+      { "emoji": "🐶", "name": "Bobby",  "breed": "Labrador Retriever",   "visits": "5 visits"  },
+      { "emoji": "🐱", "name": "Ryzhik", "breed": "Maine Coon",            "visits": "12 visits" },
+      { "emoji": "🐶", "name": "Tuzik",  "breed": "Jack Russell Terrier",  "visits": "3 visits"  },
+      { "emoji": "🐱", "name": "Snezhok","breed": "Siberian Cat",          "visits": "6 visits"  },
+      { "emoji": "🐶", "name": "Barsik", "breed": "Golden Retriever",      "visits": "9 visits"  }
+    ]
+  },
+  "stories": {
+    "title": "Guest stories",
+    "subtitle": "Every visit is special",
+    "items": [
+      {
+        "emoji": "🐱",
+        "pet": "Murzik",
+        "owner": "Owner Anna",
+        "date": "November 2024",
+        "text": "Murzik stayed with us for 10 days. The first day he was a little sad, but then settled in, found his favourite windowsill spot and ate well. Anna received photos every day and felt at ease.",
+        "individual": "The only guest those days"
+      },
+      {
+        "emoji": "🐶",
+        "pet": "Bobby",
+        "owner": "Owner Sergey",
+        "date": "October 2024",
+        "text": "Bobby is an energetic Labrador. We walked 2 hours a day and played fetch. Sergey left on a business trip knowing his dog was in safe hands — and had the whole place to himself.",
+        "individual": "The whole home just for him"
+      },
+      {
+        "emoji": "🐱",
+        "pet": "Ryzhik",
+        "owner": "Owner Maria",
+        "date": "September 2024",
+        "text": "Ryzhik is with us for the 12th time! He walks in like it's home — heads straight to his bowl. Maria says the cat always comes back calm and happy.",
+        "individual": "A true regular guest"
+      }
+    ]
+  },
+  "reports": {
+    "title": "Daily reports",
+    "subtitle": "This is what our morning reports look like",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop&q=80",
+        "time": "08:30",
+        "caption": "Good morning from Murzik! 🌅",
+        "desc": "Ate, purred, settled on the sunny windowsill"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop&q=80",
+        "time": "12:00",
+        "caption": "Walk with Bobby 🌿",
+        "desc": "An hour in the park, found a stick, splashed in a puddle — happy!"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&q=80",
+        "time": "21:00",
+        "caption": "Evening Ryzhik 🌙",
+        "desc": "Had dinner, played with his toy, now dozing on the sofa"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Owner reviews",
+    "subtitle": "They trusted us with their most precious ones",
+    "items": [
+      {
+        "avatar": "👩",
+        "name": "Anna K.",
+        "pet": "Murzik's owner",
+        "stars": 5,
+        "text": "Left my cat for 10 days. Got a photo and short video every morning. The cat came back calm and happy. The best part — he was the only pet, no stress from strange animals!",
+        "date": "November 2024"
+      },
+      {
+        "avatar": "👨",
+        "name": "Sergey M.",
+        "pet": "Bobby's owner",
+        "stars": 5,
+        "text": "Was on a business trip for 2 weeks. Bobby lived like the sole owner of the apartment — no other dogs. Came back in a great mood. Will definitely use again!",
+        "date": "October 2024"
+      },
+      {
+        "avatar": "👩",
+        "name": "Maria T.",
+        "pet": "Ryzhik's owner",
+        "stars": 5,
+        "text": "Ryzhik is with you for the 12th time! I value the individual approach most — the cat is always the only guest. You can feel the genuine care and love for animals.",
+        "date": "September 2024"
+      },
+      {
+        "avatar": "👨",
+        "name": "Dmitry P.",
+        "pet": "Barsik's owner",
+        "stars": 5,
+        "text": "Golden Retrievers are social dogs, but it's still great knowing he's not with strange dogs — he's in a cosy home environment, one-on-one with the sitters.",
+        "date": "August 2024"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Your pet's day",
+    "subtitle": "Daily routine at our home",
+    "items": [
+      { "icon": "🌅", "time": "07:30", "title": "Good morning",     "desc": "Breakfast on your schedule, morning cuddles and play" },
+      { "icon": "🚶", "time": "10:00", "title": "Walk",             "desc": "For dogs — a long walk in the park or yard" },
+      { "icon": "😴", "time": "12:00", "title": "Rest time",        "desc": "Relaxing in a favourite spot, calm environment" },
+      { "icon": "🎾", "time": "15:00", "title": "Playtime",         "desc": "Active play with toys, socialising and cuddles" },
+      { "icon": "🍽️", "time": "18:00", "title": "Dinner",           "desc": "Feeding with their usual food per your instructions" },
+      { "icon": "📸", "time": "20:00", "title": "Evening report",   "desc": "Photo and video for the owner — all is well!" },
+      { "icon": "🌙", "time": "22:00", "title": "Good night",       "desc": "Cosy sleeping spot, pet is never alone" }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "icon": "🐾", "value": "150+", "label": "Happy pets"         },
+      { "icon": "⭐", "value": "98%",  "label": "Satisfied owners"   },
+      { "icon": "📅", "value": "3+",   "label": "Years of work"      },
+      { "icon": "🏠", "value": "100%", "label": "Individual approach" }
+    ]
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "subtitle": "Honest answers",
+    "items": [
+      {
+        "q": "Do you really only take one pet at a time?",
+        "a": "Yes, it's a firm rule. We accept animals from one owner only. Your pet will be the sole guest — no other animals around."
+      },
+      {
+        "q": "How often do you send reports?",
+        "a": "Every day — a morning photo and an evening video. If something interesting happens, we message right away. You always know how your pet is doing."
+      },
+      {
+        "q": "What should I bring for my pet?",
+        "a": "Their usual food, favourite toys, and a bed if available. The more familiar items, the less stress for the animal."
+      },
+      {
+        "q": "How do I hand over my pet?",
+        "a": "We meet in person. You tell us about your pet's habits, routine, and preferences. You leave a vet contact in case of emergency."
+      },
+      {
+        "q": "Do you take exotic animals?",
+        "a": "We specialise in cats and dogs. For other animals — please ask in advance via message."
+      },
+      {
+        "q": "What if my pet gets sick?",
+        "a": "We contact you and your vet immediately and follow your instructions. Your pet's health is the top priority."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Entrust your pet to us",
+    "subtitle": "Your loved one will be the only guest — in comfort and care",
+    "telegram": "Write on Telegram",
+    "phone": "Call us",
+    "note": "Quick replies · Only one pet at a time · Reports every day"
+  },
+  "footer": {
+    "tagline": "Home pet sitting — strictly individual",
+    "copy": "© 2024 PetHome. All rights reserved."
+  }
+}

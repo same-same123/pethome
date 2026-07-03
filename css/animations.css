@@ -1,0 +1,540 @@
+/*
+ * ============================================================
+ * PetHome — Animations
+ * animations.css
+ *
+ * All animation definitions and reveal utilities.
+ * Uses CSS animations, keyframes, and custom transitions.
+ * ============================================================
+ */
+
+/* ============================================================
+   REVEAL ANIMATIONS
+   Elements get .visible class added by Intersection Observer
+   ============================================================ */
+
+/* Base reveal state — hidden */
+.reveal-up,
+.reveal-left,
+.reveal-right,
+.reveal-fade,
+.reveal-scale {
+  opacity: 0;
+  will-change: opacity, transform;
+  transition:
+    opacity 0.7s var(--ease-out),
+    transform 0.7s var(--ease-out);
+}
+
+/* Stagger delays using data attributes */
+[data-delay="50"]  { transition-delay: 50ms; }
+[data-delay="100"] { transition-delay: 100ms; }
+[data-delay="150"] { transition-delay: 150ms; }
+[data-delay="200"] { transition-delay: 200ms; }
+[data-delay="250"] { transition-delay: 250ms; }
+[data-delay="300"] { transition-delay: 300ms; }
+[data-delay="350"] { transition-delay: 350ms; }
+[data-delay="400"] { transition-delay: 400ms; }
+[data-delay="500"] { transition-delay: 500ms; }
+[data-delay="600"] { transition-delay: 600ms; }
+[data-delay="700"] { transition-delay: 700ms; }
+[data-delay="800"] { transition-delay: 800ms; }
+
+/* ── Slide Up ── */
+.reveal-up {
+  transform: translateY(28px);
+}
+
+.reveal-up.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ── Slide Left ── */
+.reveal-left {
+  transform: translateX(-28px);
+}
+
+.reveal-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── Slide Right ── */
+.reveal-right {
+  transform: translateX(28px);
+}
+
+.reveal-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* ── Fade Only ── */
+.reveal-fade {
+  transform: none;
+}
+
+.reveal-fade.visible {
+  opacity: 1;
+}
+
+/* ── Scale Up ── */
+.reveal-scale {
+  transform: scale(0.94);
+}
+
+.reveal-scale.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* ── Children stagger ── */
+.stagger-children > * {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out);
+}
+
+.stagger-children.visible > *:nth-child(1) { transition-delay: 0ms; }
+.stagger-children.visible > *:nth-child(2) { transition-delay: 80ms; }
+.stagger-children.visible > *:nth-child(3) { transition-delay: 160ms; }
+.stagger-children.visible > *:nth-child(4) { transition-delay: 240ms; }
+.stagger-children.visible > *:nth-child(5) { transition-delay: 320ms; }
+.stagger-children.visible > *:nth-child(6) { transition-delay: 400ms; }
+
+.stagger-children.visible > * {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   KEYFRAME LIBRARY
+   ============================================================ */
+
+/* Float — gentle up-down */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Gentle rotate */
+@keyframes rotate-slow {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Shimmer — skeleton loading */
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+/* Pulse glow */
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(74,155,138,0.3); }
+  50% { box-shadow: 0 0 0 12px rgba(74,155,138,0); }
+}
+
+/* Ripple */
+@keyframes ripple {
+  0% {
+    transform: scale(0);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(3);
+    opacity: 0;
+  }
+}
+
+/* Count up */
+@keyframes count-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Fade In Down */
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translateY(-12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Slide In Right */
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Scale In */
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Morph border-radius */
+@keyframes morphBlob {
+  0%, 100% { border-radius: 50% 40% 60% 40% / 40% 60% 40% 60%; }
+  33% { border-radius: 60% 40% 50% 50% / 50% 50% 60% 40%; }
+  66% { border-radius: 40% 60% 40% 60% / 60% 40% 50% 50%; }
+}
+
+/* ============================================================
+   SKELETON LOADING
+   ============================================================ */
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--color-surface-muted) 25%,
+    var(--color-bg-beige) 50%,
+    var(--color-surface-muted) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: var(--radius-sm);
+}
+
+/* ============================================================
+   RIPPLE EFFECT (buttons)
+   ============================================================ */
+.ripple-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.ripple-wave {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.35);
+  transform: scale(0);
+  animation: ripple 0.6s linear;
+  pointer-events: none;
+}
+
+/* ============================================================
+   GLASS MORPHISM CARD
+   ============================================================ */
+.glass-card {
+  background: var(--color-bg-glass);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255,255,255,0.40);
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.06),
+    inset 0 1px 0 rgba(255,255,255,0.60);
+}
+
+[data-theme="dark"] .glass-card {
+  background: rgba(30,28,24,0.70);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow:
+    0 8px 32px rgba(0,0,0,0.30),
+    inset 0 1px 0 rgba(255,255,255,0.05);
+}
+
+/* ============================================================
+   PARALLAX HELPERS
+   ============================================================ */
+.parallax-slow {
+  will-change: transform;
+}
+
+.parallax-medium {
+  will-change: transform;
+}
+
+.parallax-fast {
+  will-change: transform;
+}
+
+/* ============================================================
+   STAT COUNTER ANIMATION
+   ============================================================ */
+.stat-number {
+  animation: count-up 0.4s var(--ease-out) both;
+}
+
+/* ============================================================
+   TRUST CARD ENTRANCE
+   ============================================================ */
+.trust-card {
+  opacity: 0;
+  transform: translateY(24px);
+  transition:
+    opacity 0.6s var(--ease-out),
+    transform 0.6s var(--ease-out),
+    box-shadow 0.3s,
+    border-color 0.3s;
+}
+
+.trust-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   TIMELINE ANIMATIONS
+   ============================================================ */
+.timeline-item:nth-child(1) { transition-delay: 0ms; }
+.timeline-item:nth-child(2) { transition-delay: 80ms; }
+.timeline-item:nth-child(3) { transition-delay: 160ms; }
+.timeline-item:nth-child(4) { transition-delay: 240ms; }
+.timeline-item:nth-child(5) { transition-delay: 320ms; }
+.timeline-item:nth-child(6) { transition-delay: 400ms; }
+.timeline-item:nth-child(7) { transition-delay: 480ms; }
+.timeline-item:nth-child(8) { transition-delay: 560ms; }
+.timeline-item:nth-child(9) { transition-delay: 640ms; }
+.timeline-item:nth-child(10) { transition-delay: 720ms; }
+
+/* ============================================================
+   GALLERY STAGGER
+   ============================================================ */
+.gallery-item {
+  opacity: 0;
+  transform: scale(0.95);
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out),
+    filter 0.4s;
+}
+
+.gallery-item.visible {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.gallery-item:nth-child(1) { transition-delay: 0ms; }
+.gallery-item:nth-child(2) { transition-delay: 60ms; }
+.gallery-item:nth-child(3) { transition-delay: 120ms; }
+.gallery-item:nth-child(4) { transition-delay: 180ms; }
+.gallery-item:nth-child(5) { transition-delay: 240ms; }
+.gallery-item:nth-child(6) { transition-delay: 300ms; }
+.gallery-item:nth-child(7) { transition-delay: 360ms; }
+.gallery-item:nth-child(8) { transition-delay: 420ms; }
+.gallery-item:nth-child(9) { transition-delay: 480ms; }
+
+/* ============================================================
+   STORY CARD ENTRANCE
+   ============================================================ */
+.story-card {
+  opacity: 0;
+  transform: translateY(30px);
+  transition:
+    opacity 0.7s var(--ease-out),
+    transform 0.7s var(--ease-out),
+    box-shadow 0.3s;
+}
+
+.story-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.story-card:nth-child(1) { transition-delay: 0ms; }
+.story-card:nth-child(2) { transition-delay: 100ms; }
+.story-card:nth-child(3) { transition-delay: 200ms; }
+
+/* ============================================================
+   REPORT CARD ENTRANCE
+   ============================================================ */
+.report-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out),
+    box-shadow 0.3s;
+}
+
+.report-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.report-card:nth-child(1) { transition-delay: 0ms; }
+.report-card:nth-child(2) { transition-delay: 80ms; }
+.report-card:nth-child(3) { transition-delay: 160ms; }
+.report-card:nth-child(4) { transition-delay: 240ms; }
+.report-card:nth-child(5) { transition-delay: 320ms; }
+.report-card:nth-child(6) { transition-delay: 400ms; }
+
+/* ============================================================
+   FAQ ENTRANCE
+   ============================================================ */
+.faq-item {
+  opacity: 0;
+  transform: translateY(16px);
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out),
+    box-shadow 0.3s;
+}
+
+.faq-item.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.faq-item:nth-child(1) { transition-delay: 0ms; }
+.faq-item:nth-child(2) { transition-delay: 60ms; }
+.faq-item:nth-child(3) { transition-delay: 120ms; }
+.faq-item:nth-child(4) { transition-delay: 180ms; }
+.faq-item:nth-child(5) { transition-delay: 240ms; }
+.faq-item:nth-child(6) { transition-delay: 300ms; }
+.faq-item:nth-child(7) { transition-delay: 360ms; }
+
+/* ============================================================
+   STAT CARD ENTRANCE
+   ============================================================ */
+.stat-card {
+  opacity: 0;
+  transform: translateY(24px) scale(0.97);
+  transition:
+    opacity 0.6s var(--ease-out),
+    transform 0.6s var(--ease-out),
+    box-shadow 0.3s;
+}
+
+.stat-card.visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+.stat-card:nth-child(1) { transition-delay: 0ms; }
+.stat-card:nth-child(2) { transition-delay: 80ms; }
+.stat-card:nth-child(3) { transition-delay: 160ms; }
+.stat-card:nth-child(4) { transition-delay: 240ms; }
+.stat-card:nth-child(5) { transition-delay: 320ms; }
+
+/* ============================================================
+   REVIEW CARD ENTRANCE
+   ============================================================ */
+.review-card {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 0.5s var(--ease-out),
+    transform 0.5s var(--ease-out),
+    box-shadow 0.3s;
+}
+
+.review-card.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ============================================================
+   SECTION TRANSITION (page progress bar)
+   ============================================================ */
+.page-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 2px;
+  z-index: var(--z-loading);
+  background: linear-gradient(
+    to right,
+    var(--color-accent),
+    var(--color-blue)
+  );
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform 0.1s linear;
+}
+
+/* ============================================================
+   HOVER SHINE EFFECT
+   ============================================================ */
+.shine-effect {
+  position: relative;
+  overflow: hidden;
+}
+
+.shine-effect::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -75%;
+  width: 50%;
+  height: 200%;
+  background: linear-gradient(
+    to right,
+    transparent 0%,
+    rgba(255,255,255,0.12) 50%,
+    transparent 100%
+  );
+  transform: skewX(-15deg);
+  transition: left 0.6s var(--ease-out);
+}
+
+.shine-effect:hover::after {
+  left: 125%;
+}
+
+/* ============================================================
+   AMBIENT BACKGROUND BLOBS (decorative)
+   ============================================================ */
+.ambient-blob {
+  position: absolute;
+  border-radius: 50%;
+  filter: blur(60px);
+  opacity: 0.25;
+  pointer-events: none;
+  animation: morphBlob 12s ease-in-out infinite;
+}
+
+.ambient-blob-green {
+  background: var(--color-green);
+}
+
+.ambient-blob-blue {
+  background: var(--color-blue);
+}
+
+/* ============================================================
+   THUMB HOVER ZOOM
+   ============================================================ */
+.hover-zoom {
+  overflow: hidden;
+}
+
+.hover-zoom img {
+  transition: transform 0.6s var(--ease-out);
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.08);
+}
+
+/* ============================================================
+   APP ENTER ANIMATION
+   ============================================================ */
+#app {
+  opacity: 0;
+  transition: opacity 0.6s var(--ease-out);
+}
+
+#app.loaded {
+  opacity: 1;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "pethome-telegram-miniapp",
+  "version": "1.0.0",
+  "description": "World-class pet sitting Telegram Mini App",
+  "scripts": {
+    "dev": "npx serve . -p 3000 --cors",
+    "start": "npx serve . -p 3000 --cors"
+  },
+  "dependencies": {
+    "serve": "14.2.3"
+  }
+}

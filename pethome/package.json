@@ -1,0 +1,10 @@
+{
+  "name": "pethome-telegram-miniapp",
+  "version": "1.0.0",
+  "description": "World-class pet sitting Telegram Mini App",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}

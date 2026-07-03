@@ -1,0 +1,369 @@
+{
+  "brand": {
+    "name": "PetHome"
+  },
+  "loading": {
+    "line1": "Welcome to a place",
+    "line2": "where pets feel truly at home."
+  },
+  "hero": {
+    "badge": "Now accepting new guests",
+    "title1": "While you rest —",
+    "title2": "your pet rests too.",
+    "pill1": "Home",
+    "pill2": "Love",
+    "pill3": "Safety",
+    "pill4": "Care",
+    "cta": "Meet us"
+  },
+  "trust": {
+    "label": "Our Values",
+    "title": "Why people trust us",
+    "subtitle": "Every guest is part of our family",
+    "items": [
+      {
+        "icon": "🏠",
+        "title": "No Cages",
+        "desc": "Your pet lives in a real home, not a kennel. Freedom of movement and a homely atmosphere are our core principles."
+      },
+      {
+        "icon": "📸",
+        "title": "Daily Photos",
+        "desc": "Every day you receive fresh photos of your pet. You always know what they're up to."
+      },
+      {
+        "icon": "🎬",
+        "title": "Daily Videos",
+        "desc": "Video reports let you see your pet's mood, activity level, and social interactions."
+      },
+      {
+        "icon": "❤️",
+        "title": "Individual Care",
+        "desc": "We learn each pet's habits, preferences, and personality. No one-size-fits-all approach."
+      },
+      {
+        "icon": "👁️",
+        "title": "Constant Supervision",
+        "desc": "Pets are watched at all times. We're always present — day and night."
+      },
+      {
+        "icon": "🌿",
+        "title": "Home Atmosphere",
+        "desc": "Soft beds, cozy corners, warm affection. Your pet will feel at home within the first few minutes."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Our Home",
+    "title": "A place you'd want to stay",
+    "subtitle": "Cozy rooms, soft beds, spacious yard",
+    "photos": [
+      { "caption": "Cozy living room" },
+      { "caption": "Soft pet beds" },
+      { "caption": "Spacious yard" },
+      { "caption": "Play area" },
+      { "caption": "Rest corner" },
+      { "caption": "Garden and walking path" },
+      { "caption": "Comfortable sofas" },
+      { "caption": "Feeding area" },
+      { "caption": "Sleeping area" }
+    ]
+  },
+  "videos": {
+    "label": "Videos",
+    "title": "Real moments",
+    "subtitle": "See what a day looks like for our guests",
+    "items": [
+      {
+        "tag": "Walks",
+        "title": "Morning Walk",
+        "desc": "Fresh air, new scents and the joy of movement.",
+        "duration": "1:24"
+      },
+      {
+        "tag": "Play",
+        "title": "Playtime",
+        "desc": "Balls, toys, and happy wagging tails.",
+        "duration": "0:58"
+      },
+      {
+        "tag": "Rest",
+        "title": "Afternoon Nap",
+        "desc": "After an active morning — sweet rest.",
+        "duration": "0:42"
+      },
+      {
+        "tag": "Feeding",
+        "title": "Lunchtime",
+        "desc": "Delicious meals — the secret to a happy pet.",
+        "duration": "0:35"
+      },
+      {
+        "tag": "Social",
+        "title": "Making Friends",
+        "desc": "Meeting the other guests at our home.",
+        "duration": "1:10"
+      },
+      {
+        "tag": "Evening",
+        "title": "Quiet Evening",
+        "desc": "Gentle play and cuddles before bedtime.",
+        "duration": "0:52"
+      }
+    ]
+  },
+  "guests": {
+    "label": "Our Guests",
+    "title": "Meet them",
+    "subtitle": "Each one has left a mark on our hearts",
+    "items": [
+      {
+        "name": "Bim",
+        "age": "3 years",
+        "breed": "Labrador",
+        "days": "7 days",
+        "toy": "Tennis ball",
+        "treat": "Chicken treats",
+        "story": "Bim arrived a little shy, but by the next morning he was running around the yard looking for new friends."
+      },
+      {
+        "name": "Luna",
+        "age": "2 years",
+        "breed": "Samoyed",
+        "days": "5 days",
+        "toy": "Plush bunny",
+        "treat": "Dried apple chips",
+        "story": "Luna is a true princess. She loves being the center of attention and adores affection."
+      },
+      {
+        "name": "Rex",
+        "age": "4 years",
+        "breed": "German Shepherd",
+        "days": "10 days",
+        "toy": "Rope toy",
+        "treat": "Beef ears",
+        "story": "Rex is smart and loyal. He settled in quickly and became the informal leader of the group."
+      },
+      {
+        "name": "Button",
+        "age": "1 year",
+        "breed": "Toy Poodle",
+        "days": "4 days",
+        "toy": "Small squeaky ball",
+        "treat": "Cottage cheese bites",
+        "story": "Tiny Button won everyone over with her energy. Small in size, but enormous in character."
+      },
+      {
+        "name": "Graf",
+        "age": "5 years",
+        "breed": "Doberman",
+        "days": "6 days",
+        "toy": "Chew ring",
+        "treat": "Turkey slices",
+        "story": "Graf looks serious, but inside he's a gentle giant. Loves ear scratches more than anything."
+      }
+    ]
+  },
+  "regulars": {
+    "label": "Regular Guests",
+    "title": "Already like family",
+    "visits_label": "visits",
+    "items": [
+      { "name": "Rex", "visits": 12 },
+      { "name": "Luna", "visits": 9 },
+      { "name": "Bim", "visits": 7 },
+      { "name": "Button", "visits": 6 },
+      { "name": "Graf", "visits": 5 },
+      { "name": "Nyusha", "visits": 4 }
+    ]
+  },
+  "stories": {
+    "label": "Stories",
+    "title": "Moments that touch the heart",
+    "items": [
+      {
+        "name": "Bim's Story",
+        "emoji": "🐾",
+        "title": "A shy pup became the life of the party",
+        "text": "Bim came to us the first time very small and very scared. New place, unfamiliar smells, other dogs. We gave him time — just stayed close, didn't rush.",
+        "quote": "By the second day he was running around the yard demanding a ball. His owner couldn't believe her eyes.",
+        "outcome": "Now Bim is our most frequent guest ❤️"
+      },
+      {
+        "name": "Luna's Story",
+        "emoji": "🌙",
+        "title": "A princess who found her throne",
+        "text": "Luna arrived with a big bag: her favourite pillow, three toys and a supply of treats. Her owner was very worried. But Luna sorted it out herself.",
+        "quote": "She chose the softest sofa, jumped on it, and looked at us as if she'd always lived here.",
+        "outcome": "Luna now comes with every trip her owner takes 🌿"
+      },
+      {
+        "name": "Rex's Story",
+        "emoji": "⭐",
+        "title": "A big dog with a big heart",
+        "text": "Rex was brought for 10 days. His owner was sure such a serious dog would have a hard time. But Rex surprised everyone.",
+        "quote": "On the third day he was already guarding our yard as if it were his own home. We call him our Head of Security.",
+        "outcome": "Rex holds the record for most visits 🏆"
+      }
+    ]
+  },
+  "reports": {
+    "label": "Photo Reports",
+    "title": "Daily Reports",
+    "subtitle": "You always know how your pet is doing",
+    "items": [
+      {
+        "pet": "Bim",
+        "caption": "Had a great walk today ❤️ Found a new path in the park.",
+        "mood": "Happy",
+        "date": "Today"
+      },
+      {
+        "pet": "Luna",
+        "caption": "Sleeping sweetly on her favourite sofa after the walk.",
+        "mood": "Relaxed",
+        "date": "Yesterday"
+      },
+      {
+        "pet": "Rex",
+        "caption": "Great appetite! Finished every last bite.",
+        "mood": "Content",
+        "date": "2 days ago"
+      },
+      {
+        "pet": "Button",
+        "caption": "Found a new best friend — they're inseparable now.",
+        "mood": "Playful",
+        "date": "Today"
+      },
+      {
+        "pet": "Graf",
+        "caption": "Smiling in his sleep. It was a full, happy day.",
+        "mood": "Peaceful",
+        "date": "Yesterday"
+      },
+      {
+        "pet": "Nyusha",
+        "caption": "First day went wonderfully. Already settled right in.",
+        "mood": "Curious",
+        "date": "Today"
+      }
+    ]
+  },
+  "reviews": {
+    "label": "Reviews",
+    "title": "What owners say",
+    "subtitle": "Real stories from real people",
+    "items": [
+      {
+        "author": "Anna M.",
+        "sub": "Luna's owner",
+        "rating": 5,
+        "text": "Left my Luna for the first time and was very worried. But the daily photos and videos calmed me completely. Luna was so happy! We'll be back.",
+        "pet": "Luna",
+        "date": "November 2024"
+      },
+      {
+        "author": "Dmitry K.",
+        "sub": "Rex's owner",
+        "rating": 5,
+        "text": "Rex is a serious dog, doesn't warm up to everyone. But here he accepted from the first minute. I can see from the videos — he's content, active. Very grateful for this approach.",
+        "pet": "Rex",
+        "date": "October 2024"
+      },
+      {
+        "author": "Marina S.",
+        "sub": "Button's owner",
+        "rating": 5,
+        "text": "Little Button found real friends here. Every time we drive there, she starts squealing with excitement in the car. Best place ever!",
+        "pet": "Button",
+        "date": "December 2024"
+      },
+      {
+        "author": "Igor V.",
+        "sub": "Thunder's owner",
+        "rating": 5,
+        "text": "Went on a two-week business trip. Was sure my pet was stressed. But the reports showed the opposite! Thunder played, ate, walked. Huge thank you.",
+        "pet": "Thunder",
+        "date": "September 2024"
+      },
+      {
+        "author": "Olga R.",
+        "sub": "Nyusha's owner",
+        "rating": 5,
+        "text": "Nyusha is a cat and I worried the dogs would frighten her. Turns out they're in separate areas and it was perfect. Very professional approach.",
+        "pet": "Nyusha",
+        "date": "January 2025"
+      }
+    ]
+  },
+  "timeline": {
+    "label": "Daily Schedule",
+    "title": "How the day goes",
+    "subtitle": "Routine, care, and lots of love",
+    "items": [
+      { "time": "08:00", "emoji": "🌅", "title": "Wake Up", "desc": "Gentle morning wake-up, first cuddles, and a happy start to the day." },
+      { "time": "08:30", "emoji": "🌿", "title": "Morning Walk", "desc": "Fresh air, the first scents of the day, and a light stretch." },
+      { "time": "09:00", "emoji": "🍽️", "title": "Breakfast", "desc": "Nutritious breakfast following each guest's individual diet." },
+      { "time": "11:00", "emoji": "🎾", "title": "Play & Activity", "desc": "Balls, toys, socialising with other pets, exercise." },
+      { "time": "13:00", "emoji": "😴", "title": "Rest & Nap", "desc": "Quiet time, soft pillows, and a peaceful nap." },
+      { "time": "16:00", "emoji": "🐾", "title": "Big Walk", "desc": "A long outdoor walk with games and exploration." },
+      { "time": "19:00", "emoji": "🍖", "title": "Dinner", "desc": "A tasty dinner prepared according to each pet's preferences." },
+      { "time": "21:00", "emoji": "🌙", "title": "Quiet Evening", "desc": "Gentle play, cuddles, and winding down for bed." },
+      { "time": "22:00", "emoji": "💤", "title": "Sweet Dreams", "desc": "A cozy spot, a favourite toy nearby, and a calm night." }
+    ]
+  },
+  "stats": {
+    "label": "Numbers",
+    "title": "By the numbers",
+    "items": [
+      { "icon": "🐾", "number": 500, "prefix": "", "suffix": "+", "label": "happy guests" },
+      { "icon": "🌿", "number": 8000, "prefix": "", "suffix": "+", "label": "walks" },
+      { "icon": "📸", "number": 25000, "prefix": "", "suffix": "+", "label": "photos sent" },
+      { "icon": "⏰", "number": 50000, "prefix": "", "suffix": "+", "label": "hours of care" },
+      { "icon": "❤️", "number": 98, "prefix": "", "suffix": "%", "label": "happy owners" }
+    ]
+  },
+  "faq": {
+    "label": "FAQ",
+    "title": "Frequently asked",
+    "subtitle": "Answers to the most popular questions",
+    "items": [
+      {
+        "q": "Can I leave a puppy?",
+        "a": "Yes, we accept puppies from 3 months with basic vaccinations. We give them extra attention and patience, knowing this is a new and important experience for them."
+      },
+      {
+        "q": "Can I bring my pet's own food?",
+        "a": "Of course! We recommend bringing your pet's usual food to avoid changing their diet. Just note the quantity and feeding schedule — we'll follow it precisely."
+      },
+      {
+        "q": "Do you accept cats?",
+        "a": "Yes, we accept cats. We have a separate cat area, isolated from dogs. A cozy, quiet and safe space where cats settle in quickly."
+      },
+      {
+        "q": "Do you take large dogs?",
+        "a": "Yes, we work with dogs of all sizes. Our yard and space allows large breeds to feel comfortable. Every breed gets appropriate exercise and care."
+      },
+      {
+        "q": "What if my pet needs medication?",
+        "a": "We're happy to help with scheduled medications. Just provide detailed instructions and leave the medication in its packaging — we'll administer it accurately and on time."
+      },
+      {
+        "q": "What should I bring?",
+        "a": "Vaccination passport, usual food, a favourite toy and their own pillow if possible. We have everything else — beds, bowls, toys. The main thing is a calm, happy pet."
+      },
+      {
+        "q": "How often do you send reports?",
+        "a": "Every day. Morning message about how the night went, midday photos and videos of activities, evening recap. You're always in the loop and always at ease."
+      }
+    ]
+  },
+  "cta": {
+    "title": "We'd love to meet your furry friend ❤️",
+    "subtitle": "We understand how important it is to trust your pet to someone who truly loves animals. That's why every guest becomes part of our family.",
+    "telegram": "Message on Telegram",
+    "whatsapp": "WhatsApp",
+    "call": "Call us"
+  }
+}

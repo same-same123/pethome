@@ -1,0 +1,369 @@
+{
+  "brand": {
+    "name": "PetHome"
+  },
+  "loading": {
+    "line1": "Добродошли на место",
+    "line2": "где се кућни љубимци осећају као код куће."
+  },
+  "hero": {
+    "badge": "Отворени за нове госте",
+    "title1": "Dok vi odmarate —",
+    "title2": "vaš ljubimac takođe odmara.",
+    "pill1": "Dom",
+    "pill2": "Ljubav",
+    "pill3": "Sigurnost",
+    "pill4": "Briga",
+    "cta": "Upoznajte nas"
+  },
+  "trust": {
+    "label": "Naša načela",
+    "title": "Zašto nam veruju",
+    "subtitle": "Svaki gost je deo naše porodice",
+    "items": [
+      {
+        "icon": "🏠",
+        "title": "Bez kaveza",
+        "desc": "Vaš ljubimac živi u pravom domu, ne u boksu. Sloboda kretanja i domaća atmosfera su naš glavni princip."
+      },
+      {
+        "icon": "📸",
+        "title": "Slike svaki dan",
+        "desc": "Svaki dan dobijate sveže fotografije vašeg ljubimca. Uvek znate čime se bavi."
+      },
+      {
+        "icon": "🎬",
+        "title": "Video svaki dan",
+        "desc": "Video izveštaji vam omogućavaju da vidite raspoloženje ljubimca, njegovu aktivnost i druženje."
+      },
+      {
+        "icon": "❤️",
+        "title": "Individualna nega",
+        "desc": "Učimo navike, preferencije i karakter svakog ljubimca. Bez šablonskog pristupa."
+      },
+      {
+        "icon": "👁️",
+        "title": "Stalni nadzor",
+        "desc": "Ljubimci su pod nadzorom celo vreme. Uvek smo tu — danju i noću."
+      },
+      {
+        "icon": "🌿",
+        "title": "Domaća atmosfera",
+        "desc": "Meki kreveti, udobni kutci, topla pažnja. Vaš ljubimac će se osećati kao kod kuće od prvih minuta."
+      }
+    ]
+  },
+  "gallery": {
+    "label": "Naš dom",
+    "title": "Mesto gde se želi ostati",
+    "subtitle": "Udobne sobe, meki kreveti, prostrano dvorište",
+    "photos": [
+      { "caption": "Udoban dnevni boravak" },
+      { "caption": "Meki kreveti za ljubimce" },
+      { "caption": "Prostrano dvorište" },
+      { "caption": "Zona za igru" },
+      { "caption": "Mesto za odmor" },
+      { "caption": "Bašta i šetna staza" },
+      { "caption": "Udobni sofovi" },
+      { "caption": "Zona za hranjenje" },
+      { "caption": "Mesta za spavanje" }
+    ]
+  },
+  "videos": {
+    "label": "Video snimci",
+    "title": "Živи trenuci",
+    "subtitle": "Pogledajte kako izgleda dan naših gostiju",
+    "items": [
+      {
+        "tag": "Šetnje",
+        "title": "Jutarnja šetnja",
+        "desc": "Svež vazduh, novi mirisi i radost kretanja.",
+        "duration": "1:24"
+      },
+      {
+        "tag": "Igra",
+        "title": "Vreme za igru",
+        "desc": "Lopte, igračke i srećni repovi.",
+        "duration": "0:58"
+      },
+      {
+        "tag": "Odmor",
+        "title": "Popodnevni san",
+        "desc": "Nakon aktivnog jutra — sladak odmor.",
+        "duration": "0:42"
+      },
+      {
+        "tag": "Hranjenje",
+        "title": "Vreme ručka",
+        "desc": "Ukusna hrana — tajna srećnog ljubimca.",
+        "duration": "0:35"
+      },
+      {
+        "tag": "Druženje",
+        "title": "Novi prijatelji",
+        "desc": "Upoznavanje ostalih gostiju našeg doma.",
+        "duration": "1:10"
+      },
+      {
+        "tag": "Veče",
+        "title": "Mirna večer",
+        "desc": "Tiha igra i nežno maženje pre spavanja.",
+        "duration": "0:52"
+      }
+    ]
+  },
+  "guests": {
+    "label": "Naši gosti",
+    "title": "Upoznajte ih",
+    "subtitle": "Svaki od njih ostavio je trag u našem srcu",
+    "items": [
+      {
+        "name": "Bim",
+        "age": "3 godine",
+        "breed": "Labrador",
+        "days": "7 dana",
+        "toy": "Teniska loptica",
+        "treat": "Pileći zalogaji",
+        "story": "Bim je stigao malo stidljiv, ali već sledećeg jutra je trčao po dvorištu i tražio nove prijatelje."
+      },
+      {
+        "name": "Luna",
+        "age": "2 godine",
+        "breed": "Samoyed",
+        "days": "5 dana",
+        "toy": "Plišani zec",
+        "treat": "Sušene jabuke",
+        "story": "Luna je prava princeza. Voli da bude u centru pažnje i obožava maženje."
+      },
+      {
+        "name": "Reks",
+        "age": "4 godine",
+        "breed": "Nemački ovčar",
+        "days": "10 dana",
+        "toy": "Uže za vuču",
+        "treat": "Goveđe uši",
+        "story": "Reks je pametan i odan. Brzo se snašao i postao neformalni lider naše grupe."
+      },
+      {
+        "name": "Dugme",
+        "age": "1 godina",
+        "breed": "Toy pudla",
+        "days": "4 dana",
+        "toy": "Mala loptica",
+        "treat": "Kuglice od svežeg sira",
+        "story": "Malena Dugme je osvajila sve svojom energijom. Mala po stasu, ali karakter je ogroman."
+      },
+      {
+        "name": "Grof",
+        "age": "5 godina",
+        "breed": "Doberman",
+        "days": "6 dana",
+        "toy": "Guma za žvakanje",
+        "treat": "Ćuretina",
+        "story": "Grof izgleda ozbiljno, ali iznutra je veliki dobrićak. Obožava škakljanje iza ušiju."
+      }
+    ]
+  },
+  "regulars": {
+    "label": "Stalni gosti",
+    "title": "Već kao porodica",
+    "visits_label": "poseta",
+    "items": [
+      { "name": "Reks", "visits": 12 },
+      { "name": "Luna", "visits": 9 },
+      { "name": "Bim", "visits": 7 },
+      { "name": "Dugme", "visits": 6 },
+      { "name": "Grof", "visits": 5 },
+      { "name": "Njiuša", "visits": 4 }
+    ]
+  },
+  "stories": {
+    "label": "Priče",
+    "title": "Trenuci koji diraju srce",
+    "items": [
+      {
+        "name": "Bimova priča",
+        "emoji": "🐾",
+        "title": "Stidljivi mali postao dušа društva",
+        "text": "Bim je prvi put došao kod nas sasvim mali i veoma uplašen. Novo mesto, nepoznati mirisi, drugi psi. Dali smo mu vreme — jednostavno bili smo tu, nismo žurili.",
+        "quote": "Već drugog dana je trčao po dvorištu i tražio loptu. Vlasnica nije mogla da veruje.",
+        "outcome": "Sada je Bim naš najčešći gost ❤️"
+      },
+      {
+        "name": "Lunina priča",
+        "emoji": "🌙",
+        "title": "Princeza koja je pronašla svoj presto",
+        "text": "Luna je stigla sa velikom torbom: omiljen jastuk, tri igračke i zaliha poslastica. Njena vlasnica je bila jako zabrinuta. Ali Luna je sve rešila sama.",
+        "quote": "Odabrala je najmeši sofa, skočila na njega i pogledala nas kao da je ovde uvek živela.",
+        "outcome": "Luna sada dolazi na svako putovanje vlasnice 🌿"
+      },
+      {
+        "name": "Reksova priča",
+        "emoji": "⭐",
+        "title": "Veliki pas sa velikim srcem",
+        "text": "Reksa su doveli na 10 dana. Vlasnik je bio siguran da će takvom ozbiljnom psu biti teško. Ali Reks je iznenadio sve.",
+        "quote": "Trećeg dana je već čuvao naše dvorište kao da je to njegov sopstveni dom. Zovemo ga naš direktor bezbednosti.",
+        "outcome": "Reks drži rekord po broju poseta 🏆"
+      }
+    ]
+  },
+  "reports": {
+    "label": "Foto izveštaji",
+    "title": "Dnevni izveštaji",
+    "subtitle": "Uvek znate kako se vaš ljubimac oseća",
+    "items": [
+      {
+        "pet": "Bim",
+        "caption": "Danas smo se odlično prošetali ❤️ Pronašli smo novu stazu u parku.",
+        "mood": "Srećan",
+        "date": "Danas"
+      },
+      {
+        "pet": "Luna",
+        "caption": "Posle šetnje slatko spava na omiljenom sofi.",
+        "mood": "Opuštena",
+        "date": "Juče"
+      },
+      {
+        "pet": "Reks",
+        "caption": "Apetit odličan! Pojeo je sve do poslednje mrvice.",
+        "mood": "Zadovoljan",
+        "date": "Pre 2 dana"
+      },
+      {
+        "pet": "Dugme",
+        "caption": "Pronašla novog prijatelja — sada se ne razdvajaju.",
+        "mood": "Razigrana",
+        "date": "Danas"
+      },
+      {
+        "pet": "Grof",
+        "caption": "Osmehuje se u snu. Danas je bio bogat dan.",
+        "mood": "Miran",
+        "date": "Juče"
+      },
+      {
+        "pet": "Njiuša",
+        "caption": "Prvi dan je prošao sjajno. Već se snašla.",
+        "mood": "Radoznala",
+        "date": "Danas"
+      }
+    ]
+  },
+  "reviews": {
+    "label": "Recenzije",
+    "title": "Šta kažu vlasnici",
+    "subtitle": "Prave priče od pravih ljudi",
+    "items": [
+      {
+        "author": "Ana M.",
+        "sub": "Lunina vlasnica",
+        "rating": 5,
+        "text": "Ostavila sam svoju Lunu prvi put i bila sam jako uzbuđena. Ali svakodnevne slike i video snimci su me potpuno smirili. Luna je bila srećna! Vraćamo se ponovo.",
+        "pet": "Luna",
+        "date": "Novembar 2024"
+      },
+      {
+        "author": "Dmitrij K.",
+        "sub": "Reksov vlasnik",
+        "rating": 5,
+        "text": "Reks je ozbiljan pas, ne priđe svakome. Ali ovde je prihvatio od prve minute. Vidim po snimcima — zadovoljan je, aktivan. Veoma sam zahvalan na ovakvom pristupu.",
+        "pet": "Reks",
+        "date": "Oktobar 2024"
+      },
+      {
+        "author": "Marina S.",
+        "sub": "Dugumetova vlasnica",
+        "rating": 5,
+        "text": "Malo Dugme je ovde pronašlo prave prijatelje. Svaki put kad idemo tamo, ona počne da cvilji od uzbuđenja već u kolima. Najbolje mesto!",
+        "pet": "Dugme",
+        "date": "Decembar 2024"
+      },
+      {
+        "author": "Igor V.",
+        "sub": "Gromov vlasnik",
+        "rating": 5,
+        "text": "Otišao sam na dvonedelni poslovni put. Bio sam siguran da je životinja pod stresom. Ali izveštaji su pokazali suprotno! Grom se igrao, jeo, šetao. Ogromna hvala.",
+        "pet": "Grom",
+        "date": "Septembar 2024"
+      },
+      {
+        "author": "Olga R.",
+        "sub": "Njiušina vlasnica",
+        "rating": 5,
+        "text": "Njiuša je maca i bojala sam se da će je psi plašiti. Ispostavilo se da su u odvojenim zonama i sve je bilo savršeno. Veoma profesionalan pristup.",
+        "pet": "Njiuša",
+        "date": "Januar 2025"
+      }
+    ]
+  },
+  "timeline": {
+    "label": "Dnevni raspored",
+    "title": "Kako izgleda dan",
+    "subtitle": "Raspored, briga i puno ljubavi",
+    "items": [
+      { "time": "08:00", "emoji": "🌅", "title": "Buđenje", "desc": "Nežno jutarnje buđenje, prve milovanje i srećno jutro." },
+      { "time": "08:30", "emoji": "🌿", "title": "Jutarnja šetnja", "desc": "Svež vazduh, prvi mirisi dana i lagano zagrevanje." },
+      { "time": "09:00", "emoji": "🍽️", "title": "Doručak", "desc": "Hranljiv doručak prema individualnoj ishrani svakog gosta." },
+      { "time": "11:00", "emoji": "🎾", "title": "Igra i aktivnost", "desc": "Lopte, igračke, druženje sa ostalim ljubimcima, vežbanje." },
+      { "time": "13:00", "emoji": "😴", "title": "Odmor i dremanje", "desc": "Tiho vreme, meki jastuci i miran san." },
+      { "time": "16:00", "emoji": "🐾", "title": "Velika šetnja", "desc": "Duža šetnja na svežem vazduhu sa igrama i istraživanjem." },
+      { "time": "19:00", "emoji": "🍖", "title": "Večera", "desc": "Ukusna večera pripremljena prema preferencijama svakog ljubimca." },
+      { "time": "21:00", "emoji": "🌙", "title": "Mirna večer", "desc": "Tiha igra, milovanje i pripreme za spavanje." },
+      { "time": "22:00", "emoji": "💤", "title": "Slatki san", "desc": "Udobno mesto, omiljena igračka i mirna noć." }
+    ]
+  },
+  "stats": {
+    "label": "Brojevi",
+    "title": "U brojevima",
+    "items": [
+      { "icon": "🐾", "number": 500, "prefix": "", "suffix": "+", "label": "srećnih gostiju" },
+      { "icon": "🌿", "number": 8000, "prefix": "", "suffix": "+", "label": "šetnji" },
+      { "icon": "📸", "number": 25000, "prefix": "", "suffix": "+", "label": "fotografija" },
+      { "icon": "⏰", "number": 50000, "prefix": "", "suffix": "+", "label": "sati brige" },
+      { "icon": "❤️", "number": 98, "prefix": "", "suffix": "%", "label": "zadovoljnih vlasnika" }
+    ]
+  },
+  "faq": {
+    "label": "Pitanja",
+    "title": "Često se pitaju",
+    "subtitle": "Odgovori na najpopularnija pitanja",
+    "items": [
+      {
+        "q": "Može li se ostaviti štene?",
+        "a": "Da, prihvatamo štence od 3 meseca sa osnovnim vakcinacijama. Posvećujemo im posebnu pažnju i strpljenje, razumejući da je ovo novo i važno iskustvo za mališana."
+      },
+      {
+        "q": "Može li se doneti sopstvena hrana?",
+        "a": "Naravno! Preporučujemo da donesete uobičajenu hranu da ne menjate ishranu ljubimca. Samo označite količinu i učestalost hranjenja — sve ćemo uraditi tačno po uputstvu."
+      },
+      {
+        "q": "Da li primate mačke?",
+        "a": "Da, prihvatamo mačke. Imamo odvojenu zonu za mačke, izolovanu od pasa. Udoban, miran i siguran prostor gde se mačke brzo snađu."
+      },
+      {
+        "q": "Da li primate velike pse?",
+        "a": "Da, radimo sa psima svih veličina. Naše dvorište i prostor omogućavaju velikim rasama da se osećaju udobno. Svaka rasa dobija odgovarajuće opterećenje i negu."
+      },
+      {
+        "q": "Šta ako ljubimcu trebaju lekovi?",
+        "a": "Sa zadovoljstvom pomažemo sa uzimanjem lekova prema rasporedu. Samo dostavite detaljna uputstva i ostavite preparate u originalnom pakovanju — uradićemo sve tačno i na vreme."
+      },
+      {
+        "q": "Šta poneti sa sobom?",
+        "a": "Pasoš sa vakcinacijama, uobičajenu hranu, omiljenu igračku i jastuk (ako postoji). Sve ostalo — krevet, zdele, igračke — imamo. Glavno je miran ljubimac."
+      },
+      {
+        "q": "Koliko često šaljete izveštaje?",
+        "a": "Svaki dan. Ujutro — poruka kako je prošla noć, tokom dana — slike i video sa aktivnostima, uveče — sažetak dana. Uvek ste u toku i uvek ste mirni."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Radujemo se upoznavanju vašeg ljubimca ❤️",
+    "subtitle": "Znamo koliko je važno poveriti ljubimca nekome ko zaista voli životinje. Zato svaki naš gost postaje deo porodice.",
+    "telegram": "Pišite na Telegram",
+    "whatsapp": "WhatsApp",
+    "call": "Pozovite nas"
+  }
+}

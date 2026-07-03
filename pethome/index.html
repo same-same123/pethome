@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>PetHome — Домашняя передержка</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+
+  <!-- LOADING SCREEN -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="loading-inner">
+      <div class="loading-paw">🐾</div>
+      <div class="loading-brand">PetHome</div>
+      <div class="loading-msg" id="loading-msg">Загружаем...</div>
+      <div class="loading-bar"><div class="loading-bar-fill" id="loading-bar-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- MAIN APP -->
+  <main id="app" class="app hidden">
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero-bg" id="hero-bg"></div>
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <div class="hero-badge" id="hero-badge"></div>
+        <h1 class="hero-title" id="hero-title"></h1>
+        <p class="hero-subtitle" id="hero-subtitle"></p>
+        <div class="hero-pills" id="hero-pills"></div>
+        <div class="hero-actions">
+          <button class="btn btn-primary" id="hero-cta-btn">
+            <span id="hero-cta-text"></span>
+            <span class="btn-arrow">→</span>
+          </button>
+        </div>
+      </div>
+      <div class="hero-scroll-hint">
+        <div class="scroll-dot"></div>
+      </div>
+    </section>
+
+    <!-- NAV -->
+    <nav class="section-nav" id="section-nav">
+      <div class="nav-inner" id="nav-inner"></div>
+    </nav>
+
+    <!-- TRUST -->
+    <section class="section trust-section" id="trust" data-section="trust">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="trust-title"></h2>
+          <p class="section-subtitle" id="trust-subtitle"></p>
+        </div>
+        <div class="trust-grid" id="trust-grid"></div>
+      </div>
+    </section>
+
+    <!-- INDIVIDUAL CARE BANNER -->
+    <section class="individual-banner" id="individual-banner">
+      <div class="container">
+        <div class="banner-inner" id="banner-inner"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="section gallery-section" id="gallery" data-section="gallery">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="gallery-title"></h2>
+          <p class="section-subtitle" id="gallery-subtitle"></p>
+        </div>
+        <div class="gallery-grid" id="gallery-grid"></div>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX -->
+    <div class="lightbox" id="lightbox">
+      <button class="lightbox-close" id="lightbox-close">✕</button>
+      <button class="lightbox-prev" id="lightbox-prev">‹</button>
+      <button class="lightbox-next" id="lightbox-next">›</button>
+      <div class="lightbox-img-wrap" id="lightbox-img-wrap">
+        <img class="lightbox-img" id="lightbox-img" src="" alt="" />
+      </div>
+      <div class="lightbox-caption" id="lightbox-caption"></div>
+      <div class="lightbox-counter" id="lightbox-counter"></div>
+    </div>
+
+    <!-- VIDEOS -->
+    <section class="section video-section" id="videos" data-section="videos">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="videos-title"></h2>
+          <p class="section-subtitle" id="videos-subtitle"></p>
+        </div>
+        <div class="video-grid" id="video-grid"></div>
+      </div>
+    </section>
+
+    <!-- VIDEO MODAL -->
+    <div class="video-modal" id="video-modal">
+      <div class="video-modal-backdrop" id="video-modal-backdrop"></div>
+      <div class="video-modal-inner">
+        <button class="video-modal-close" id="video-modal-close">✕</button>
+        <div class="video-modal-player" id="video-modal-player"></div>
+        <div class="video-modal-title" id="video-modal-title"></div>
+      </div>
+    </div>
+
+    <!-- GUESTS -->
+    <section class="section guests-section" id="guests" data-section="guests">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="guests-title"></h2>
+          <p class="section-subtitle" id="guests-subtitle"></p>
+        </div>
+        <div class="guests-grid" id="guests-grid"></div>
+      </div>
+    </section>
+
+    <!-- STORIES -->
+    <section class="section stories-section" id="stories" data-section="stories">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="stories-title"></h2>
+          <p class="section-subtitle" id="stories-subtitle"></p>
+        </div>
+        <div class="stories-list" id="stories-list"></div>
+      </div>
+    </section>
+
+    <!-- REPORTS -->
+    <section class="section reports-section" id="reports" data-section="reports">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="reports-title"></h2>
+          <p class="section-subtitle" id="reports-subtitle"></p>
+        </div>
+        <div class="reports-grid" id="reports-grid"></div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews-section" id="reviews" data-section="reviews">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="reviews-title"></h2>
+          <p class="section-subtitle" id="reviews-subtitle"></p>
+        </div>
+        <div class="reviews-slider" id="reviews-slider">
+          <div class="reviews-track" id="reviews-track"></div>
+          <div class="reviews-dots" id="reviews-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIMELINE -->
+    <section class="section timeline-section" id="timeline" data-section="timeline">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="timeline-title"></h2>
+          <p class="section-subtitle" id="timeline-subtitle"></p>
+        </div>
+        <div class="timeline" id="timeline-list"></div>
+      </div>
+    </section>
+
+    <!-- STATS -->
+    <section class="section stats-section" id="stats" data-section="stats">
+      <div class="container">
+        <div class="stats-grid" id="stats-grid"></div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="section faq-section" id="faq" data-section="faq">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title" id="faq-title"></h2>
+          <p class="section-subtitle" id="faq-subtitle"></p>
+        </div>
+        <div class="faq-list" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section cta-section" id="cta" data-section="cta">
+      <div class="container">
+        <div class="cta-inner">
+          <div class="cta-icon">🐾</div>
+          <h2 class="cta-title" id="cta-title"></h2>
+          <p class="cta-subtitle" id="cta-subtitle"></p>
+          <div class="cta-buttons" id="cta-buttons">
+            <button class="btn btn-primary btn-lg" id="cta-tg-btn">
+              <span class="btn-icon">✈</span>
+              <span id="cta-tg-text"></span>
+            </button>
+            <button class="btn btn-outline btn-lg" id="cta-phone-btn">
+              <span class="btn-icon">📞</span>
+              <span id="cta-phone-text"></span>
+            </button>
+          </div>
+          <p class="cta-note" id="cta-note"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-brand">🐾 PetHome</div>
+        <p class="footer-tagline" id="footer-tagline"></p>
+        <div class="footer-links">
+          <button class="footer-link" id="footer-tg-link">Telegram</button>
+          <button class="footer-link" id="footer-phone-link" id="footer-phone-link"></button>
+        </div>
+        <p class="footer-copy" id="footer-copy"></p>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- SCROLL TO TOP -->
+  <button class="scroll-top-btn" id="scroll-top-btn">↑</button>
+
+  <!-- LANG SWITCHER -->
+  <div class="lang-switcher" id="lang-switcher">
+    <button class="lang-btn active" data-lang="ru">RU</button>
+    <button class="lang-btn" data-lang="en">EN</button>
+    <button class="lang-btn" data-lang="sr">SR</button>
+  </div>
+
+  <script src="js/telegram.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/video.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,273 @@
+{
+  "loading": {
+    "messages": [
+      "Pripremamo udobno mesto...",
+      "Proveravamo zdele i ležaje...",
+      "Dočekujemo dlakave goste...",
+      "Skoro gotovo!"
+    ]
+  },
+  "nav": [
+    { "id": "trust",    "label": "O nama"   },
+    { "id": "gallery",  "label": "Foto"     },
+    { "id": "guests",   "label": "Gosti"    },
+    { "id": "stories",  "label": "Priče"    },
+    { "id": "reviews",  "label": "Recenzije"},
+    { "id": "timeline", "label": "Dan"      },
+    { "id": "faq",      "label": "FAQ"      },
+    { "id": "cta",      "label": "Kontakt"  }
+  ],
+  "hero": {
+    "badge": "🏠 Kućni hotel za kućne ljubimce",
+    "title": "Vaš ljubimac — kao kod kuće",
+    "subtitle": "Individualna briga, živimo zajedno, dnevni izveštaji",
+    "pills": ["🐾 Samo jedan vlasnik", "📸 Slike i video svaki dan", "🏠 Kućna atmosfera", "❤️ Sa ljubavlju"],
+    "cta": "Saznaj više"
+  },
+  "individual": {
+    "icon": "🏠",
+    "title": "Strogo individualni hotel",
+    "desc": "Primamo ljubimce samo od jednog vlasnika u isto vreme. Vaš ljubimac biće jedini gost — nikakvih tuđih životinja, nikakav stres."
+  },
+  "trust": {
+    "title": "Zašto nam veruju",
+    "subtitle": "Svaka životinja je jedini gost",
+    "cards": [
+      {
+        "icon": "🏠",
+        "title": "Samo vaš ljubimac",
+        "text": "Strogo individualni smeštaj — primamo životinje samo od jednog vlasnika. Nema tuđih životinja u blizini."
+      },
+      {
+        "icon": "📸",
+        "title": "Dnevni izveštaji",
+        "text": "Slike i video svaki dan. Uvek znate šta vaš ljubimac radi i kako se oseća."
+      },
+      {
+        "icon": "❤️",
+        "title": "Kućna atmosfera",
+        "text": "Zajedno živimo u stanu, šetamo, igramo se. Vaš ljubimac neće biti usamljen niti dosadan."
+      },
+      {
+        "icon": "🌙",
+        "title": "Briga 24h",
+        "text": "Tu smo danju i noću. Ljubimac nikada nije sam — uvek je pod nadzorom."
+      },
+      {
+        "icon": "🍽️",
+        "title": "Poznata rutina",
+        "text": "Hranjenje po vašem rasporedu, omiljena hrana i igračke. Minimum stresa, maksimum udobnosti."
+      },
+      {
+        "icon": "🚨",
+        "title": "Kontakt 24/7",
+        "text": "Uvek dostupni. Pišite u bilo koje vreme — odgovaramo brzo sa slikama ili video vašeg ljubimca."
+      }
+    ]
+  },
+  "gallery": {
+    "title": "Naši dlakavi gosti",
+    "subtitle": "Trenuci sreće i udobnosti",
+    "photos": [
+      { "src": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=600&fit=crop&q=80", "caption": "Murzik odmara na kauču" },
+      { "src": "https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?w=600&h=600&fit=crop&q=80", "caption": "Bobik na šetnji" },
+      { "src": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=600&fit=crop&q=80", "caption": "Ryzhik se igra" },
+      { "src": "https://images.unsplash.com/photo-1518791841217-8f162f1912da?w=600&h=600&fit=crop&q=80", "caption": "Pushok spava" },
+      { "src": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?w=600&h=600&fit=crop&q=80", "caption": "Barsik na šetnji" },
+      { "src": "https://images.unsplash.com/photo-1548681528-6a5c45b66b42?w=600&h=600&fit=crop&q=80", "caption": "Snezhok posle ručka" }
+    ]
+  },
+  "videos": {
+    "title": "Video sa ljubimcima",
+    "subtitle": "Živi trenuci iz našeg doma",
+    "items": [
+      {
+        "thumb": "https://images.unsplash.com/photo-1555685812-4b943f1cb0eb?w=600&h=400&fit=crop&q=80",
+        "title": "Jutarnja igra",
+        "desc": "Ryzhik i njegova omiljena loptica",
+        "duration": "0:32",
+        "src": ""
+      },
+      {
+        "thumb": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop&q=80",
+        "title": "Šetnja u parku",
+        "desc": "Bobik istražuje nove mirise",
+        "duration": "1:05",
+        "src": ""
+      },
+      {
+        "thumb": "https://images.unsplash.com/photo-1478098711619-5ab0b478d6e6?w=600&h=400&fit=crop&q=80",
+        "title": "Večernji odmor",
+        "desc": "Murzik se smestio na omiljenom mestu",
+        "duration": "0:48",
+        "src": ""
+      }
+    ]
+  },
+  "guests": {
+    "title": "Naši stalni gosti",
+    "subtitle": "Vraćaju se iznova i iznova",
+    "list": [
+      { "emoji": "🐱", "name": "Murzik", "breed": "Britanska kratkodlaka", "visits": "8 poseta"  },
+      { "emoji": "🐶", "name": "Bobik",  "breed": "Labrador retriver",     "visits": "5 poseta"  },
+      { "emoji": "🐱", "name": "Ryzhik", "breed": "Mejn kun",              "visits": "12 poseta" },
+      { "emoji": "🐶", "name": "Tuzik",  "breed": "Džek Rasel terijer",    "visits": "3 posete"  },
+      { "emoji": "🐱", "name": "Snezhok","breed": "Sibirska mačka",        "visits": "6 poseta"  },
+      { "emoji": "🐶", "name": "Barsik", "breed": "Zlatni retriver",       "visits": "9 poseta"  }
+    ]
+  },
+  "stories": {
+    "title": "Priče naših gostiju",
+    "subtitle": "Svaka poseta je posebna",
+    "items": [
+      {
+        "emoji": "🐱",
+        "pet": "Murzik",
+        "owner": "Vlasnica Ana",
+        "date": "Novembar 2024",
+        "text": "Murzik je ostao kod nas 10 dana. Prvog dana bio je malo tužan, ali se ubrzo snašao, pronašao omiljeno mesto na prozoru i jeo s apetitom. Ana je svaki dan dobijala slike i bila mirna.",
+        "individual": "Jedini gost tih dana"
+      },
+      {
+        "emoji": "🐶",
+        "pet": "Bobik",
+        "owner": "Vlasnik Sergej",
+        "date": "Oktobar 2024",
+        "text": "Bobik je energičan labrador. Šetali smo po 2 sata dnevno, igrali se loptom. Sergej je otputovao na službeni put smiren — znao je da je pas u sigurnim rukama i da uživa u pažnji.",
+        "individual": "Ceo stan samo za njega"
+      },
+      {
+        "emoji": "🐱",
+        "pet": "Ryzhik",
+        "owner": "Vlasnica Marija",
+        "date": "Septembar 2024",
+        "text": "Ryzhik je kod nas već 12. put! Ulazi kao kod kuće — odmah ide do svoje zdele. Marija kaže da se mačka uvek vraća mirna i zadovoljna.",
+        "individual": "Pravi stalni gost"
+      }
+    ]
+  },
+  "reports": {
+    "title": "Dnevni izveštaji",
+    "subtitle": "Ovako izgledaju naši jutarnji izveštaji",
+    "items": [
+      {
+        "img": "https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=600&h=400&fit=crop&q=80",
+        "time": "08:30",
+        "caption": "Dobro jutro od Murzika! 🌅",
+        "desc": "Pojeo, predurao, smestio se na sunčanom prozoru"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=600&h=400&fit=crop&q=80",
+        "time": "12:00",
+        "caption": "Šetnja sa Bobikom 🌿",
+        "desc": "Sat u parku, našao štap, kupao se u lokvi — srećan!"
+      },
+      {
+        "img": "https://images.unsplash.com/photo-1574158622682-e40e69881006?w=600&h=400&fit=crop&q=80",
+        "time": "21:00",
+        "caption": "Večernji Ryzhik 🌙",
+        "desc": "Večerao, igrao se igračkom, sada dremucka na kauču"
+      }
+    ]
+  },
+  "reviews": {
+    "title": "Recenzije vlasnika",
+    "subtitle": "Poverili su nam ono najdragocenije",
+    "items": [
+      {
+        "avatar": "👩",
+        "name": "Ana K.",
+        "pet": "Vlasnica Murzika",
+        "stars": 5,
+        "text": "Ostavila sam mačku na 10 dana. Svako jutro dobijala sam sliku i kratak video. Mačka se vratila mirna i zadovoljna. Najvažnije — bio je jedini ljubimac, bez stresa od tuđih životinja!",
+        "date": "Novembar 2024"
+      },
+      {
+        "avatar": "👨",
+        "name": "Sergej M.",
+        "pet": "Vlasnik Bobika",
+        "stars": 5,
+        "text": "Bio sam na putu 2 nedelje. Bobik je živeo kao jedini vlasnik stana — nema drugih pasa. Vratio se u odličnom raspoloženju. Svakako ću ponovo!",
+        "date": "Oktobar 2024"
+      },
+      {
+        "avatar": "👩",
+        "name": "Marija T.",
+        "pet": "Vlasnica Ryzhika",
+        "stars": 5,
+        "text": "Ryzhik je kod vas već 12. put! Cenim individualni pristup — mačka je uvek jedini gost. Oseća se prava briga i ljubav prema životinjama.",
+        "date": "Septembar 2024"
+      },
+      {
+        "avatar": "👨",
+        "name": "Dmitrij P.",
+        "pet": "Vlasnik Barsika",
+        "stars": 5,
+        "text": "Zlatni retriveri su društveni psi, ali ipak je lepo znati da nije sa tuđim psima — već u udobnoj kućnoj atmosferi, samo sa domaćinima.",
+        "date": "Avgust 2024"
+      }
+    ]
+  },
+  "timeline": {
+    "title": "Dan vašeg ljubimca",
+    "subtitle": "Dnevna rutina u našem domu",
+    "items": [
+      { "icon": "🌅", "time": "07:30", "title": "Dobro jutro",       "desc": "Doručak po vašem rasporedu, jutarnje maženje i igra" },
+      { "icon": "🚶", "time": "10:00", "title": "Šetnja",            "desc": "Za pse — duga šetnja u parku ili dvorištu" },
+      { "icon": "😴", "time": "12:00", "title": "Odmor",             "desc": "Opuštanje na omiljenom mestu, mirna atmosfera" },
+      { "icon": "🎾", "time": "15:00", "title": "Igra",              "desc": "Aktivna igra sa igračkama, druženje i maženje" },
+      { "icon": "🍽️", "time": "18:00", "title": "Večera",            "desc": "Hranjenje uobičajenom hranom po vašim uputstvima" },
+      { "icon": "📸", "time": "20:00", "title": "Večernji izveštaj", "desc": "Slika i video za vlasnika — sve je u redu!" },
+      { "icon": "🌙", "time": "22:00", "title": "Laku noć",          "desc": "Udobno mesto za spavanje, ljubimac nije sam" }
+    ]
+  },
+  "stats": {
+    "items": [
+      { "icon": "🐾", "value": "150+", "label": "Srećnih ljubimaca"    },
+      { "icon": "⭐", "value": "98%",  "label": "Zadovoljnih vlasnika" },
+      { "icon": "📅", "value": "3+",   "label": "Godine rada"          },
+      { "icon": "🏠", "value": "100%", "label": "Individualni pristup" }
+    ]
+  },
+  "faq": {
+    "title": "Česta pitanja",
+    "subtitle": "Odgovaramo iskreno",
+    "items": [
+      {
+        "q": "Da li zaista primате samo jednog ljubimca odjednom?",
+        "a": "Da, to je osnovno pravilo. Primamo životinje samo od jednog vlasnika. Vaš ljubimac biće jedini gost — nema tuđih životinja u blizini."
+      },
+      {
+        "q": "Koliko često šaljete izveštaje?",
+        "a": "Svaki dan — jutarnja slika i večernji video. Ako se desi nešto zanimljivo — odmah pišemo. Uvek znate kako je vaš ljubimac."
+      },
+      {
+        "q": "Šta da ponesem za ljubimca?",
+        "a": "Uobičajenu hranu, omiljene igračke, ležaj ako imate. Što više poznatih stvari — manje stresa za životinju."
+      },
+      {
+        "q": "Kako predajem ljubimca?",
+        "a": "Srećemo se lično. Ispričate nam o navikama ljubimca, rasporedu i preferencijama. Ostavljate kontakt veterinara za hitne slučajeve."
+      },
+      {
+        "q": "Da li primate egzotične životinje?",
+        "a": "Specijalizovani smo za mačke i pse. Za druge životinje — pitajte unapred putem poruke."
+      },
+      {
+        "q": "Šta ako se ljubimac razboli?",
+        "a": "Odmah vas kontaktiramo i vašeg veterinara. Postupamo po vašim uputstvima. Zdravlje ljubimca je glavni prioritet."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Poverite nam ljubimca",
+    "subtitle": "Vaš ljubimac biće jedini gost — u udobnosti i brizi",
+    "telegram": "Pišite na Telegram",
+    "phone": "Pozovite nas",
+    "note": "Brzi odgovori · Samo jedan ljubimac · Izveštaji svaki dan"
+  },
+  "footer": {
+    "tagline": "Kućni hotel za kućne ljubimce — strogo individualno",
+    "copy": "© 2024 PetHome. Sva prava zadržana."
+  }
+}
