@@ -37,9 +37,9 @@
 
   /** Contact links — replace with real values */
   const CONTACTS = {
-    telegram: 'https://t.me/pethome_example',
-    whatsapp:  'https://wa.me/79001234567',
-    phone:     'tel:+79001234567',
+    telegram: 'https://t.me/serbian_pets',
+    whatsapp:  'https://wa.me/381631462563',
+    phone:     'tel:+381631462563',
   };
 
   /** Gallery images (Unsplash) */
