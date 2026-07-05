@@ -44,8 +44,8 @@
   /** Gallery images (Unsplash) */
   const GALLERY_IMAGES = [
     {
-      src: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&h=600&fit=crop&q=80',
-      srcset: 'https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=400&h=300&fit=crop&q=80 400w, https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=800&h=600&fit=crop&q=80 800w',
+      src: 'images/photo_2026-07-05_17-32-02.jpg',
+      srcset: 'images/photo_2026-07-05_17-32-02.jpg 400w, images/photo_2026-07-05_17-32-02.jpg 800w',
     },
     {
       src: 'https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=800&h=600&fit=crop&q=80',
