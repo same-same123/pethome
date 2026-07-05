@@ -38,7 +38,6 @@
   /** Contact links — replace with real values */
   const CONTACTS = {
     telegram: 'https://t.me/serbian_pets',
-    whatsapp:  'https://wa.me/381631462563',
     phone:     'tel:+381631462563',
   };
 
@@ -729,20 +728,12 @@
 
   function initCtaButtons() {
     const btnTelegram = document.getElementById('btn-telegram');
-    const btnWhatsapp = document.getElementById('btn-whatsapp');
     const btnCall = document.getElementById('btn-call');
 
     if (btnTelegram) {
       btnTelegram.addEventListener('click', () => {
         TelegramApp.hapticMedium();
         TelegramApp.openTelegramLink(CONTACTS.telegram);
-      });
-    }
-
-    if (btnWhatsapp) {
-      btnWhatsapp.addEventListener('click', () => {
-        TelegramApp.hapticMedium();
-        TelegramApp.openLink(CONTACTS.whatsapp);
       });
     }
 
